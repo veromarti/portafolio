@@ -44,7 +44,7 @@ ul li a:hover {
   background-color: #111111;
 }
 .bottom-table {
-    position: fixed;
+    table-layout:fixed;
     bottom: 3pc;
     margin: auto;
     width: 80%;
@@ -61,6 +61,7 @@ ul li a:hover {
     display: flex;
     align-items: center; 
     gap: 10px; 
+    padding: 5px;
 }
 
 .img {
