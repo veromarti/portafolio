@@ -10,10 +10,203 @@
     <link href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <h1>Professional Portfolio</h1>
 
-    <ul>
+    <header class="site-header">
+        <h1>Professional Portfolio</h1>
+        <div class="main-nav">
+            <h3 class="logo">Veronica Martinez</h3>
+            <!-- <nav>
+                <ul>
+                    <li><a href="default.asp">Home</a></li>
+                    <li><a href="projects.asp">Projects</a></li>
+                    <li><a href="contact.asp">Contact</a></li>
+                </ul>
+            </nav> -->
+        </div>
+    </header>
+    
+    <main>
+        <section class="side-menu">
+            <nav>
+                <ul>
+                    <li><a href="default.asp">Home</a></li>
+                    <li><a href="projects.asp">Projects</a></li>
+                    <li><a href="contact.asp">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="hero">
+            <img src="media/VMC.jpeg" alt="Picture" class="profile-img">
+            <div class="hero-content">
+                
+                <h2>Software Developer</h2>
+                <p>Software Developer focused on clean code and intuitive experiences — crafting practical software solutions 
+                    that look great and work even better.</p>
+            </div>
+
+            <div class="waves">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280"><path fill="#0099ff" fill-opacity="0.6" 
+                    d="M0,32L34.3,32C68.6,32,137,32,206,64C274.3,96,343,160,411,170.7C480,181,549,139,617,133.3C685.7,128,754,
+                    160,823,170.7C891.4,181,960,171,1029,144C1097.1,117,1166,75,1234,53.3C1302.9,32,1371,32,1406,32L1440,
+                    32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,
+                    320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,
+                    320L0,320Z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280"><path fill="#a2d9ff" fill-opacity="0.6" 
+                    d="M0,320L34.3,293.3C68.6,267,137,213,206,213.3C274.3,213,343,267,411,261.3C480,256,549,192,617,186.7C685.7,
+                    181,754,235,823,240C891.4,245,960,203,1029,192C1097.1,181,1166,203,1234,218.7C1302.9,235,1371,245,1406,
+                    250.7L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,
+                    320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,
+                    34,320L0,320Z"></path></svg>
+            </div>    
+        </section>
+
+        <section class="projects">
+            <div class="logos">
+                <img src="media/python.svg" alt="Python Logo">
+                <img src="media/css.svg" alt="CSS Logo">
+                <img src="media/javascript.svg" alt="Javascript Logo">
+                <img src="media/mysql.svg" alt="MySQL Logo">
+            </div>
+
+            
+        </section>
+
+        <section class="projects-frame">
+            <iframe
+                name="my-projects"
+                id="projects-window"
+                class="window"
+                title="Inline Frame Example"
+                width="700"
+                height="500"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&amp;layer=mapnik">
+            </iframe>
+
+        </section>
+
+    <!-- <section class="about">
+        <h3>About Me</h3>
+        <p>
+            I am a passionate developer with strong knowledge in Python who enjoys 
+            exploring new technologies and improving my skills through hands-on projects.
+            I am fluent in English, allowing me to collaborate in international environments.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h3>My Projects</h3>
+
+        <div class="projects-wrapper">
+            <table class="bottom-table">
+                <tr>
+                    <th>Actividad</th>
+                    <th>Enlace</th>
+                    <th>Modulo</th>
+                </tr>
+                <tr>
+                    <td>Ejercicios Python</td>
+                    <td><a href ="https://github.com/veromarti/ejerciciosPython" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>Sistema Domicilio</td>
+                    <td><a href ="https://github.com/veromarti/programa_domicilio" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>Sistema EcoRide</td>
+                    <td><a href ="https://github.com/veromarti/ecoRide/blob/main/ecoBikes.py" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>Decisiones y Ciclos Python</td>
+                    <td><a href ="https://github.com/veromarti/Decisiones-y-ciclos-en-python.py" target="_blank"> Link Github</a></td>
+                    <td>1 </td>
+                </tr>
+                
+
+                <tr>
+                    <td>Actividad Estructuras de Datos</td>
+                    <td><a href ="https://github.com/veromarti/CrudActivity---CrudData-Estructuras-de-Datos-en-Python" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>Crudzaso Games: MazeQuest</td>
+                    <td><a href ="https://github.com/veromarti/crudzaso-games" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>Historia de Usuario M1</td>
+                    <td><a href ="https://github.com/veromarti/Historia-de-Usuario-M1" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>  
+
+                <tr>
+                    <td>Crudactivity Galactic</td>
+                    <td><a href ="https://github.com/veromarti/Galactic-Library-Keeper" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>WorldHub-AtlasCrudzaso-Wish</td>
+                    <td><a href ="https://choklitos21.github.io/WorldHub-AtlasCrudzaso-Wish/" target="_blank"> Link to Web</a></td>
+                    <td>2</td>
+                </tr> 
+
+                <tr>
+                    <td>WorldHub-AtlasCrudzaso-Wish</td>
+                    <td><a href ="https://github.com/Choklitos21/WorldHub-AtlasCrudzaso-Wish" target="_blank"> Link Github</a></td>
+                    <td>2</td>
+                </tr> 
+                <tr>
+                    <td>CRUDScope – HTML MediaPanel</td>
+                    <td><a href ="https://veromarti.github.io/CRUDScope-MediaPanel/" target="_blank"> Link to Web</a></td>
+                    <td>2</td>
+                </tr> 
+
+                <tr>
+                    <td>CRUDScope – HTML MediaPanel</td>
+                    <td><a href ="https://github.com/veromarti/CRUDScope-MediaPanel" target="_blank"> Link Github</a></td>
+                    <td>2</td>
+                </tr> 
+
+                <tr>
+                    <td>Historia de Usuario</td>
+                    <td><a href ="https://veromarti.github.io/M2-Historia-de-Usuario/" target="_blank"> Link to Web</a></td>
+                    <td>2</td>
+                </tr> 
+
+                <tr>
+                    <td>Historia de Usuario</td>
+                    <td><a href ="https://github.com/veromarti/M2-Historia-de-Usuario" target="_blank"> Link Github</a></td>
+                    <td>2</td>
+                </tr> 
+
+                <tr>
+                    <td>CRUDActivity – MiniOS</td>
+                    <td class="col-content"><a href ="missing-link" target="_blank"> Link to Web</a></td>
+                    <td class="col-content">2</td>
+                </tr> 
+
+                <tr>
+                    <td>CRUDActivity – MiniOS</td>
+                    <td class="col-content"><a href ="https://github.com/HecRodCode/CrudActivity---Mini-OS" target="_blank"> Link Github</a></td>
+                    <td class="col-content">2</td>
+                </tr> 
+
+                
+            </table>
+        </div>
+    </section> -->
+    
+
+    <!-- <ul>
         <li><a href="default.asp">Home</a></li>
         <li><a href="projects.asp">Projects</a></li>
         <li><a href="contact.asp">Contact</a></li>
@@ -32,117 +225,123 @@
             I am a passionate developer with strong knowledge of Python and a genuine enthusiasm for programming. I enjoy exploring new technologies, learning continuously, and improving my skills through hands-on projects.<br> 
             I am also fluent in English, which allows me to communicate effectively and work comfortably in diverse, international environments. My goal is to keep growing as a developer while contributing to meaningful and innovative projects.
         </p>
-    </div>
+    </div> -->
 
-    <div class="container">
-        <table class="bottom-table">
-            <tr>
-                <th>Actividad</th>
-                <th>Enlace</th>
-                <th>Modulo</th>
-            </tr>
-            <tr>
-                <td>Ejercicios Python</td>
-                <td><a href ="https://github.com/veromarti/ejerciciosPython" target="_blank"> Link Github</a></td>
-                <td>1</td>
-            </tr>
+    <!-- <section id="projects">
+        <h3>My Projects</h3>
 
-            <tr>
-                <td>Sistema Domicilio</td>
-                <td><a href ="https://github.com/veromarti/programa_domicilio" target="_blank"> Link Github</a></td>
-                <td>1</td>
-            </tr>
+        <div class="projects-wrapper">
+            <table class="bottom-table">
+                <tr>
+                    <th>Actividad</th>
+                    <th>Enlace</th>
+                    <th>Modulo</th>
+                </tr>
+                <tr>
+                    <td>Ejercicios Python</td>
+                    <td><a href ="https://github.com/veromarti/ejerciciosPython" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>
 
-            <tr>
-                <td>Sistema EcoRide</td>
-                <td><a href ="https://github.com/veromarti/ecoRide/blob/main/ecoBikes.py" target="_blank"> Link Github</a></td>
-                <td>1</td>
-            </tr>
+                <tr>
+                    <td>Sistema Domicilio</td>
+                    <td><a href ="https://github.com/veromarti/programa_domicilio" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>
 
-            <tr>
-                <td>Decisiones y Ciclos Python</td>
-                <td><a href ="https://github.com/veromarti/Decisiones-y-ciclos-en-python.py" target="_blank"> Link Github</a></td>
-                <td>1 </td>
-            </tr>
-            
+                <tr>
+                    <td>Sistema EcoRide</td>
+                    <td><a href ="https://github.com/veromarti/ecoRide/blob/main/ecoBikes.py" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>
 
-            <tr>
-                <td>Actividad Estructuras de Datos</td>
-                <td><a href ="https://github.com/veromarti/CrudActivity---CrudData-Estructuras-de-Datos-en-Python" target="_blank"> Link Github</a></td>
-                <td>1</td>
-            </tr>
+                <tr>
+                    <td>Decisiones y Ciclos Python</td>
+                    <td><a href ="https://github.com/veromarti/Decisiones-y-ciclos-en-python.py" target="_blank"> Link Github</a></td>
+                    <td>1 </td>
+                </tr>
+                
 
-            <tr>
-                <td>Crudzaso Games: MazeQuest</td>
-                <td><a href ="https://github.com/veromarti/crudzaso-games" target="_blank"> Link Github</a></td>
-                <td>1</td>
-            </tr>
+                <tr>
+                    <td>Actividad Estructuras de Datos</td>
+                    <td><a href ="https://github.com/veromarti/CrudActivity---CrudData-Estructuras-de-Datos-en-Python" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>
 
-            <tr>
-                <td>Historia de Usuario M1</td>
-                <td><a href ="https://github.com/veromarti/Historia-de-Usuario-M1" target="_blank"> Link Github</a></td>
-                <td>1</td>
-            </tr>  
+                <tr>
+                    <td>Crudzaso Games: MazeQuest</td>
+                    <td><a href ="https://github.com/veromarti/crudzaso-games" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>
 
-            <tr>
-                <td>Crudactivity Galactic</td>
-                <td><a href ="https://github.com/veromarti/Galactic-Library-Keeper" target="_blank"> Link Github</a></td>
-                <td>1</td>
-            </tr>
+                <tr>
+                    <td>Historia de Usuario M1</td>
+                    <td><a href ="https://github.com/veromarti/Historia-de-Usuario-M1" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>  
 
-            <tr>
-                <td>WorldHub-AtlasCrudzaso-Wish</td>
-                <td><a href ="https://choklitos21.github.io/WorldHub-AtlasCrudzaso-Wish/" target="_blank"> Link to Web</a></td>
-                <td>2</td>
-            </tr> 
+                <tr>
+                    <td>Crudactivity Galactic</td>
+                    <td><a href ="https://github.com/veromarti/Galactic-Library-Keeper" target="_blank"> Link Github</a></td>
+                    <td>1</td>
+                </tr>
 
-            <tr>
-                <td>WorldHub-AtlasCrudzaso-Wish</td>
-                <td><a href ="https://github.com/Choklitos21/WorldHub-AtlasCrudzaso-Wish" target="_blank"> Link Github</a></td>
-                <td>2</td>
-            </tr> 
-            <tr>
-                <td>CRUDScope – HTML MediaPanel</td>
-                <td><a href ="https://veromarti.github.io/CRUDScope-MediaPanel/" target="_blank"> Link to Web</a></td>
-                <td>2</td>
-            </tr> 
+                <tr>
+                    <td>WorldHub-AtlasCrudzaso-Wish</td>
+                    <td><a href ="https://choklitos21.github.io/WorldHub-AtlasCrudzaso-Wish/" target="_blank"> Link to Web</a></td>
+                    <td>2</td>
+                </tr> 
 
-            <tr>
-                <td>CRUDScope – HTML MediaPanel</td>
-                <td><a href ="https://github.com/veromarti/CRUDScope-MediaPanel" target="_blank"> Link Github</a></td>
-                <td>2</td>
-            </tr> 
+                <tr>
+                    <td>WorldHub-AtlasCrudzaso-Wish</td>
+                    <td><a href ="https://github.com/Choklitos21/WorldHub-AtlasCrudzaso-Wish" target="_blank"> Link Github</a></td>
+                    <td>2</td>
+                </tr> 
+                <tr>
+                    <td>CRUDScope – HTML MediaPanel</td>
+                    <td><a href ="https://veromarti.github.io/CRUDScope-MediaPanel/" target="_blank"> Link to Web</a></td>
+                    <td>2</td>
+                </tr> 
 
-            <tr>
-                <td>Historia de Usuario</td>
-                <td><a href ="https://veromarti.github.io/M2-Historia-de-Usuario/" target="_blank"> Link to Web</a></td>
-                <td>2</td>
-            </tr> 
+                <tr>
+                    <td>CRUDScope – HTML MediaPanel</td>
+                    <td><a href ="https://github.com/veromarti/CRUDScope-MediaPanel" target="_blank"> Link Github</a></td>
+                    <td>2</td>
+                </tr> 
 
-            <tr>
-                <td>Historia de Usuario</td>
-                <td><a href ="https://github.com/veromarti/M2-Historia-de-Usuario" target="_blank"> Link Github</a></td>
-                <td>2</td>
-            </tr> 
+                <tr>
+                    <td>Historia de Usuario</td>
+                    <td><a href ="https://veromarti.github.io/M2-Historia-de-Usuario/" target="_blank"> Link to Web</a></td>
+                    <td>2</td>
+                </tr> 
 
-            <tr>
-                <td>CRUDActivity – MiniOS</td>
-                <td class="col-content"><a href ="missing-link" target="_blank"> Link to Web</a></td>
-                <td class="col-content">2</td>
-            </tr> 
+                <tr>
+                    <td>Historia de Usuario</td>
+                    <td><a href ="https://github.com/veromarti/M2-Historia-de-Usuario" target="_blank"> Link Github</a></td>
+                    <td>2</td>
+                </tr> 
 
-            <tr>
-                <td>CRUDActivity – MiniOS</td>
-                <td class="col-content"><a href ="https://github.com/HecRodCode/CrudActivity---Mini-OS" target="_blank"> Link Github</a></td>
-                <td class="col-content">2</td>
-            </tr> 
+                <tr>
+                    <td>CRUDActivity – MiniOS</td>
+                    <td class="col-content"><a href ="missing-link" target="_blank"> Link to Web</a></td>
+                    <td class="col-content">2</td>
+                </tr> 
 
-            
+                <tr>
+                    <td>CRUDActivity – MiniOS</td>
+                    <td class="col-content"><a href ="https://github.com/HecRodCode/CrudActivity---Mini-OS" target="_blank"> Link Github</a></td>
+                    <td class="col-content">2</td>
+                </tr> 
 
+                
+            </table>
+        </div>
+    </section> -->
+    </main>
 
-            
-        </table>
-    </div>
+    <!-- <footer>
+        <p>© 2025 — Developed by Veronica Martinez</p>
+    </footer> -->
 </body>
 
 
