@@ -13,16 +13,7 @@
 
     <header class="site-header">
         <h1>Professional Portfolio</h1>
-        <div class="main-nav">
-            <h3 class="logo">Veronica Martinez</h3>
-            <!-- <nav>
-                <ul>
-                    <li><a href="default.asp">Home</a></li>
-                    <li><a href="projects.asp">Projects</a></li>
-                    <li><a href="contact.asp">Contact</a></li>
-                </ul>
-            </nav> -->
-        </div>
+        
     </header>
     
     <main>
@@ -37,11 +28,11 @@
         </section>
 
         <section class="hero">
-            <img src="media/VMC.jpeg" alt="Picture" class="profile-img">
+            <img src="media/VMC.png" alt="Picture" class="profile-img">
             <div class="hero-content">
                 
-                <h2>Software Developer</h2>
-                <p>Software Developer focused on clean code and intuitive experiences — crafting practical software solutions 
+                <h2>Software Developer <span style="margin: 0 20px;" >-</span> Veronica Martinez</h2>
+                <p>I am focused on clean code and intuitive experiences — crafting practical software solutions 
                     that look great and work even better.</p>
             </div>
 
@@ -63,24 +54,24 @@
 
         <section class="projects">
             <div class="logos">
-                <img src="media/python.svg" alt="Python Logo">
-                <img src="media/css.svg" alt="CSS Logo">
-                <img src="media/javascript.svg" alt="Javascript Logo">
-                <img src="media/mysql.svg" alt="MySQL Logo">
+                <a id="py-button" target="my-projects"><img src="media/python.svg" alt="Python Logo"></a>
+                <img id="css-button" src="media/css.svg" alt="CSS Logo">
+                <img src="media/javascript.svg" alt="Javascript Logo" target="my-projects">
+                <img src="media/mysql.svg" alt="MySQL Logo" target="my-projects">
             </div>
 
             
         </section>
 
-        <section class="projects-frame">
+        <section id="window-frame" class="projects-frame">
             <iframe
                 name="my-projects"
                 id="projects-window"
                 class="window"
                 title="Inline Frame Example"
-                width="700"
+                width="1000"
                 height="500"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&amp;layer=mapnik">
+                src="assets/python-projects.html">
             </iframe>
 
         </section>
@@ -342,6 +333,8 @@
     <!-- <footer>
         <p>© 2025 — Developed by Veronica Martinez</p>
     </footer> -->
+
+    <script src="script.js"></script>
 </body>
 
 
