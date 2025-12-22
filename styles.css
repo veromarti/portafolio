@@ -65,13 +65,20 @@ header .my-header{
   justify-content: flex-end;
 }
 
+.my-header ul li{
+  padding:6px;
+  border-radius: 8px;
+}
+
 .my-header ul li:hover{
-  background-color: #19bcd5;
+  background-color: #17629c;
+  scale: 1.02;
 }
 
 .my-header ul li a {
   text-decoration: none;
-  color:rgb(91, 119, 176)
+  color:var(--bg-light);
+  font-size: larger;
 }
 
 header .hero{
@@ -90,7 +97,6 @@ header .hero{
   display: flex;
   align-items: center;
   gap: 3%;
-  width: 100%;
   position: absolute;
   top: 5rem;
 }
@@ -271,6 +277,13 @@ p{
 
 .card-projects .project div{
   display: flex;
+  gap: 10px;
+}
+
+.card-projects .project img:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  scale:1.02;
 }
 
 .contact{
@@ -298,5 +311,9 @@ p{
   display: flex;
   gap: 10px;
   align-items: center;
+  cursor: pointer;
 }
 
+footer{
+  margin: 20px 0;
+}
